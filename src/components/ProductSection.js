@@ -54,7 +54,7 @@ export default function ProductSection() {
           Our Products
         </h2>
         <p className="font-urbanist text-lg text-gray-600 max-w-3xl mx-auto">
-          Explore Zaacoal’s range of sustainable charcoal products crafted for homes, restaurants, and international exports — now including our premium Hookah/Shisha charcoal.
+          Explore Zaacoal’s range of sustainable charcoal products crafted for homes, restaurants, and international exports - now including our premium Hookah/Shisha charcoal.
         </p>
       </motion.div>
 

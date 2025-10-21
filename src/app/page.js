@@ -59,7 +59,7 @@ export default function HomePage() {
           <motion.div variants={fadeUp}>
             <button
               onClick={() => setIsModalOpen(true)}
-              className="mt-4 inline-flex items-center gap-2 bg-black hover:bg-orange-900 text-white font-semiold px-5 py-2.5 rounded-md transition-all duration-300 self-start"
+              className="mt-4 inline-flex items-center gap-2 bg-amber-600 hover:bg-orange-900 text-white font-semiold px-5 py-2.5 rounded-md transition-all duration-300 self-start"
             >
               Contact Us
               <ArrowRight size={18} />

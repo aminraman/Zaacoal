@@ -9,7 +9,7 @@ export default function ProcessSection() {
       id: 1,
       title: "Collecting Coconut Husks",
       description:
-        "We source discarded coconut husks from local markets and communities — reducing waste and supporting local livelihoods.",
+        "We source discarded coconut husks from local markets and communities - reducing waste and supporting local livelihoods.",
       media: "/images/collecting.jpg",
     },
     {
@@ -23,7 +23,7 @@ export default function ProcessSection() {
       id: 3,
       title: "Carbonization",
       description:
-        "Using modern kilns, the dried husks are carbonized in a controlled environment — producing high-quality charcoal with minimal emissions.",
+        "Using modern kilns, the dried husks are carbonized in a controlled environment - producing high-quality charcoal with minimal emissions.",
       media: "/images/carbonization.jpg",
     },
     {
@@ -44,9 +44,7 @@ export default function ProcessSection() {
 
   return (
     <section id="process"className="relative py-24 overflow-hidden bg-gradient-to-b from-amber-50 via-white to-gray-50 text-gray-900">
-      {/* Subtle background texture */}
-      <div className="absolute inset-0 opacity-10 bg-[url('/images/pattern.jpg')] bg-no-repeat bg-center bg-cover"></div>
-
+    
       {/* Heading */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -112,7 +110,7 @@ export default function ProcessSection() {
               <h3 className="text-3xl md:text-4xl font-bold mb-4 text-black">
                 {step.title}
               </h3>
-              <p className="text-gray-700 leading-relaxed text-lg mb-6">
+              <p className="text-shadow-black-700 leading-relaxed text-lg mb-6">
                 {step.description}
               </p>
               <motion.div

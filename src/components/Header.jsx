@@ -67,7 +67,7 @@ export default function Header() {
           <div className="hidden md:flex items-center">
             <button
               onClick={() => setIsModalOpen(true)}
-              className="bg-black text-white px-5 py-2.5 rounded-md hover:bg-orange-900 transition"
+              className="bg-amber-600 text-white px-5 py-2.5 rounded-md hover:bg-orange-900 transition"
             >
               Contact Us
             </button>
@@ -111,7 +111,7 @@ export default function Header() {
                     setIsModalOpen(true);
                     setIsOpen(false);
                   }}
-                  className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 text-center transition"
+                  className="bg-amber-600 text-white px-4 py-2 rounded-md hover:bg-gray-800 text-center transition"
                 >
                   Contact Us
                 </button>

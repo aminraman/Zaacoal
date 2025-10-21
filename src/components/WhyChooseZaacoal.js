@@ -1,6 +1,6 @@
 "use client";
 import { WiSmoke } from "react-icons/wi";
-import { FaLeaf, FaFireAlt, FaHandshake } from "react-icons/fa";
+import { FaLeaf, FaFireAlt, FaHandshake, FaWind } from "react-icons/fa";
 import ReactCountryFlag from "react-country-flag";
 import { motion } from "framer-motion";
 
@@ -14,11 +14,11 @@ export default function WhyChooseZaacoal() {
     {
       title: "Smokeless and Odourless",
       text: "Our charcoal has clean burning, safe for homes and restaurants.",
-      icon: <WiSmoke className="text-gray-500 text-6xl" />,
+      icon: <FaWind className="text-white text-6xl" />,
     },
     {
       title: "Long-Lasting Heat",
-      text: "Each batch is engineered for high performance — burns hotter and longer for restaurants and homes.",
+      text: "Each batch is engineered for high performance - burns hotter and longer for restaurants and homes.",
       icon: <FaFireAlt className="text-orange-500 text-5xl" />,
     },
     {
@@ -46,11 +46,10 @@ export default function WhyChooseZaacoal() {
   ];
 
   return (
-    <section className="relative bg-gradient-to-b from-white via-orange-900 to-orange-950 py-24 px-6 md:px-16 text-white overflow-hidden">
-      {/* Ambient Background */}
-      <div className="absolute inset-0 opacity-5 bg-[url('/images/pattern.jpg')] bg-repeat bg-center"></div>
+    <section className="relative bg-gray-50 py-24 px-6 md:px-16 text-white overflow-hidden">
+      {/* Ambient Background*/}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(255,200,100,0.05),_transparent_70%)] pointer-events-none"></div>
-
+      
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -63,7 +62,7 @@ export default function WhyChooseZaacoal() {
           Why Choose Zaacoal?
         </h2>
         <p className="font-urbanist text-lg text-gray-300 max-w-3xl mx-auto">
-          We are more than just charcoal — we are powering a cleaner, greener future for Ghana and the world.
+          We are more than just charcoal - we are powering a cleaner, greener future for Ghana and the world.
         </p>
       </motion.div>
 
@@ -84,7 +83,7 @@ export default function WhyChooseZaacoal() {
               scale: 1.05,
               boxShadow: "0 0 25px rgba(255,193,7,0.3)",
             }}
-            className="p-8 bg-neutral-950/60 backdrop-blur-md rounded-3xl border border-neutral-800 hover:border-amber-500 transition-all duration-500 text-center shadow-lg"
+            className="p-8 bg-black backdrop-blur rounded-3xl border text-center shadow-lg"
           >
             <motion.div
               whileHover={{ rotate: 6 }}

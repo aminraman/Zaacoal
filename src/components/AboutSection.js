@@ -61,7 +61,7 @@ export default function AboutSection() {
             className="font-urbanist text-lg text-gray-900 mb-8"
             variants={container}
           >
-            Zaacoal produces clean, eco-friendly charcoal made from coconut waste —
+            Zaacoal produces clean, eco-friendly charcoal made from coconut waste -
             providing a smokeless, longer-lasting burn that’s better for people and
             the planet.
           </motion.p>

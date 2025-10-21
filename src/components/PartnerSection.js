@@ -8,7 +8,7 @@ export default function PartnerSection() {
     {
       name: "Chef Khulsum",
       role: "Restaurant Owner, Accra",
-      text: "Zaacoal charcoal burns clean and lasts much longer than anything else we’ve used — perfect for our busy kitchen.",
+      text: "Zaacoal charcoal burns clean and lasts much longer than anything else we’ve used - perfect for our busy kitchen.",
       image: "/images/image1.jpg",
     },
     {
@@ -20,7 +20,7 @@ export default function PartnerSection() {
     {
       name: "Jeffery T.",
       role: "Exporter, UK Market",
-      text: "Quality packaging and consistent burn rate — Zaacoal is export-ready and always on time.",
+      text: "Quality packaging and consistent burn rate - Zaacoal is export-ready and always on time.",
       image: "/images/image3.jpg",
     },
   ];
@@ -31,9 +31,7 @@ export default function PartnerSection() {
   ];
 
   return (
-    <section id="partner" className="relative py-24 overflow-hidden bg-gradient-to-b from-orange-950 via-orange-800 to-gray-50 text-gray-900">
-      {/* Subtle background pattern */}
-      <div className="absolute inset-0 opacity-5 bg-[url('/images/pattern.jpg')] bg-repeat bg-center"></div>
+    <section id="partner" className="relative py-24 overflow-hidden bg-gray-50 text-gray-900">
 
       {/* Heading */}
       <motion.div
@@ -90,7 +88,7 @@ export default function PartnerSection() {
         viewport={{ once: true }}
         className="relative max-w-5xl mx-auto text-center px-6"
       >
-        <h3 className="text-2xl md:text-3xl font-bold mb-8 text-gray-900">
+        <h3 className="text-2xl md:text-3xl font-bold mb-8 text-black">
           Our Partners
         </h3>
         <div className="flex flex-wrap justify-center items-center gap-10 opacity-80 hover:opacity-100 transition-opacity duration-500">
