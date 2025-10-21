@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --zaacoal-white: #ffffff;
+  --zaacoal-black: #111111;
+  --zaacoal-gray: #6b7280;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --zaacoal-white: #0a0a0a;
+    --zaacoal-black: #ededed;
+    --zaacoal-gray: #9ca3af;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-zaacoal-white: var(--zaacoal-white);
+  --color-zaacoal-black: var(--zaacoal-black);
+  --color-zaacoal-gray: var(--zaacoal-gray);
+  --font-sans: "Montserrat", "Urbanist", sans-serif;
+}
+
+
+html,
+body {
+  @apply bg-zaacoal-white text-zaacoal-black font-sans antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-semibold tracking-tight;
+}
+
+p {
+  @apply text-zaacoal-gray leading-relaxed;
+}
+
+button {
+  @apply font-medium transition-all duration-300 ease-in-out;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-in-out;
+}
