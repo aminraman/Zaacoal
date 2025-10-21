@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-gray-100  text-black dark:text-black py-10 flex flex-col items-center space-y-4 transition-colors duration-300">
       <div className="flex space-x-6">
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/zaacoal"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-pink-500 transition-colors"
@@ -15,7 +15,7 @@ export default function Footer() {
           <FaInstagram size={24} />
         </a>
         <a
-          href="https://facebook.com"
+          href="https://www.facebook.com/zaacoal"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-600 transition-colors"
@@ -23,7 +23,7 @@ export default function Footer() {
           <FaFacebookF size={24} />
         </a>
         <a
-          href="https://twitter.com"
+          href="https://twitter.com/zaacoalenergy"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-sky-500 transition-colors"
@@ -31,7 +31,7 @@ export default function Footer() {
           <FaTwitter size={24} />
         </a>
         <a
-          href="https://wa.me/233000000000"
+          href="https://wa.me/233507005551"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-green-500 transition-colors"

@@ -33,7 +33,7 @@ export default function ContactModal({ isOpen, onClose }) {
     {
       icon: <MapPin className="w-6 h-6 text-orange-800" />,
       title: "Visit Us",
-      detail: "Block 25/18 Fadama PMB CT 10205 Cantonments, Greater Accra Region, Ghana",
+      detail: "Fadama, Greater Accra, Ghana",
       action: "https://maps.google.com/?q=Zaacoal+Limited+Accra+Ghana",
     },
   ];
@@ -47,11 +47,11 @@ export default function ContactModal({ isOpen, onClose }) {
           animate="visible"
           exit="exit"
           variants={modalVariants}
-          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[999] flex justify-center items-center p-4"
+          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[999] flex justify-center items-start sm:items-center p-4 pt-20 sm:pt-0"
         >
           <motion.div
             variants={modalVariants}
-            className="bg-white rounded-2xl shadow-xl w-full max-w-lg relative p-6"
+            className="bg-white rounded-2xl shadow-xl w-full max-w-[90%] sm:max-w-lg relative p-4 sm:p-6"
           >
             {/* Close Button */}
             <button
@@ -65,17 +65,17 @@ export default function ContactModal({ isOpen, onClose }) {
               Get in Touch
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4">
               {contacts.map((item, i) => (
                 <a
                   key={i}
                   href={item.action}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col items-center justify-center gap-2 border rounded-xl p-5 hover:shadow-md hover:border-orange-800 transition-all duration-300"
+                  className="flex flex-col items-center justify-center gap-2 border rounded-xl p-4 sm:p-5 hover:shadow-md hover:border-orange-800 transition-all duration-300"
                 >
                   {item.icon}
-                  <h3 className="font-semibold text-gray-800">{item.title}</h3>
+                  <h3 className="font-semibold text-black">{item.title}</h3>
                   <p className="text-sm text-gray-500 text-center">{item.detail}</p>
                 </a>
               ))}
