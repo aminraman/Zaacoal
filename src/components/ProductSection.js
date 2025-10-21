@@ -9,14 +9,14 @@ export default function ProductSection() {
       id: 1,
       title: "Zaacoal Original",
       description:
-        "Perfect for restaurants and grills — produces strong heat and burns longer with minimal smoke.",
+        "Perfect for restaurants and grills - produces strong heat and burns longer with minimal smoke.",
       image: "/images/Zaacoal-Original1.jpg",
     },
     {
       id: 2,
       title: "Zaacoal Quicklight",
       description:
-        "Ideal for homes and outdoor events — easy to light, steady flame, and clean burn.",
+        "Ideal for homes and outdoor events - easy to light, steady flame, and clean burn.",
       image: "/images/Zaacoal-Quicklight.webp",
     },
     {
@@ -30,8 +30,8 @@ export default function ProductSection() {
       id: 4,
       title: "Zaacoal Hookah/Shisha",
       description:
-        "Specially designed for hookah lovers — produces consistent heat, pure flavor, and no odor.",
-      image: "/images/hookah.jpg",
+        "Specially designed for hookah lovers - produces consistent heat, pure flavor, and no odor.",
+      image: "/images/Hookah.jpg",
     },
   ];
 

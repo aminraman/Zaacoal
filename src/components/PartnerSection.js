@@ -26,7 +26,7 @@ export default function PartnerSection() {
   ];
 
   const partners = [
-    "/images/partner1.png",
+    "/images/Partner1.png",
     "/images/partner2.png",
   ];
 
